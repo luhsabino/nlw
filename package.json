@@ -14,5 +14,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luhsabino/nlw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luhsabino/nlw/issues"
+  },
+  "homepage": "https://github.com/luhsabino/nlw#readme"
 }
