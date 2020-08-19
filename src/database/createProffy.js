@@ -41,14 +41,13 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
                 time_to
             ) VALUES (
                 "${class_id}",
-                "${classScheduleValue.weeday}",
+                "${classScheduleValue.weekday}",
                 "${classScheduleValue.time_from}",
                 "${classScheduleValue.time_to}"
             );
         `)
     })
 
-
-    //aqui vou executar todos os db.runs() das class_schudules
+    //aqui vou executar todos os db.runs() das class_schedules
     await Promise.all(insertedAllClassScheduleValues)
 }
