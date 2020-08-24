@@ -1,9 +1,9 @@
-
 .page-header {
     background-color: var(--color-primary);
 
     display: flex;
     flex-direction: column;
+    
 }
 
 .page-header .top-bar-container {
@@ -11,13 +11,13 @@
     margin: 0 auto;
 
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: space-between;
 
     padding: 1.6rem 0;
 }
 
-.page-header .top-bar-container a {
+.page-header .top-bar-container a { 
     height: 3.2rem;
     transition: opacity 0.2s;
 }
@@ -49,9 +49,10 @@
     line-height: 2.6rem;
     color: var(--color-text-in-primary);
     margin-top: 2.4rem;
-}    
+}
 
-@media (min-width: 700px) {
+
+@media (min-width:700px) {
     .page-header {
         height: 340px;
     }
@@ -70,9 +71,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
     }
 
     .page-header .header-content strong {
         max-width: 350px;
     }
+
+
 }

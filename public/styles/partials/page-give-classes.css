@@ -51,18 +51,17 @@
 }
 
 #page-give-classes fieldset legend button:hover {
-    transform: translateY(-5px);
     color: var(--color-primary-dark);
 }
 
 #page-give-classes fieldset+fieldset {
-    margin-top: 6.4rem;
+    margin-top:6.4rem;
 }
 
 #page-give-classes .input-block+.input-block,
 #page-give-classes .input-block+.textarea-block,
-#page-give-classes .select-block+.input-block  {
-    margin-top: 2.4;
+#page-give-classes .select-block+.input-block{
+    margin-top: 2.4rem;
 }
 
 #page-give-classes main footer {
@@ -73,7 +72,7 @@
     margin-top: 6.4rem;
 }
 
-#page-give-classes main footer p {
+#page-give-classes main footer p{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +83,7 @@
     color: var(--color-text-complement);
 }
 
-#page-give-classes main footer p img {
+#page-give-classes main footer p img{
     margin-right: 2rem;
 }
 
@@ -111,11 +110,12 @@
     background: var(--color-secondary-dark);
 }
 
+
 .schedule-item+.schedule-item {
     margin-top: 3.2rem;
     padding-top: 3.2rem;
 
-    border-top: 1px solid var(--color-line-in-white);
+    border-top: 1px solid var(--color-line-in-white)
 }
 
 @media (min-width: 700px) {
@@ -124,9 +124,9 @@
     }
 
     #page-give-classes .page-header .header-content {
-        margin-bottom: 0;
+        margin-bottom:0;
     }
-
+    
     #page-give-classes main fieldset {
         padding: 0 64px;
     }
@@ -139,7 +139,7 @@
 
     #page-give-classes #schedule-items .select-block+.input-block,
     #page-give-classes #schedule-items .input-block+.input-block {
-        margin-top: 0 ;
+        margin-top: 0;
     }
 
     #page-give-classes main footer {
@@ -151,7 +151,7 @@
     }
 
     #page-give-classes main footer button {
-        margin-bottom: 0;
+        margin-top: 0;
 
         width: 200px;
     }
